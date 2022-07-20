@@ -15,6 +15,7 @@ body{
     border-radius: 10px;
   }
   #anh:hover{
+    cursor: pointer;
     width: 350px;
     height:460px;
   }
