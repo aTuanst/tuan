@@ -1,0 +1,121 @@
+body{
+    background: #708090;
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQlajLYoS59y4LbcFkhQ_hcKSJtLxVWwDxA&usqp=CAU);
+    background-size: 300px;
+  }  
+  
+  
+  /* transition: di chuot den auto tang width and height */
+  #anh{
+    border: 1px solid #00FFFF;
+    width:300px;
+    height:380px;
+    transition:1s;
+    border-radius: 10px;
+  }
+  #anh:hover{
+    cursor: pointer;
+    width: 350px;
+    height:460px;
+  }
+  
+  #stop{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+  }
+  
+  #tuan1{
+    margin-top: 100px;
+  }
+  
+  #t{
+    text-shadow: 3px 3px 1px red;
+  }
+  
+  
+  h1{
+    font-size: 50px;
+    color: #00FFFF;
+    font-family: "Algerian", serif;
+  }
+  
+  
+   /* selector: di chuot den se doi mau */
+  a:link, a:active, a:visited{
+    color: #333333;
+    font-size:20px;
+  }
+  a:hover{
+    color: red;
+  }
+  
+  
+  #baihat{
+    border: 3px dashed #7FFF00;
+    outline: 1px solid purple;
+  }
+  
+  
+  h6{
+    color: #383838;
+    font-size: 14px;
+  }
+  
+  
+  /* chu nhap nhay */
+  @-webkit-keyframes my {
+  0% { color: #00FFFF; }
+  40% { color: #00FF00; }
+  70% { color: #00FFFF; }
+  100% { color: white;}
+  }
+  @-moz-keyframes my {
+  0% { color: #00FFFF; }
+  40% { color: #00FF00; }
+  70% { color: #00FFFF; }
+  100% { color: white;}
+  }
+  @-o-keyframes my {
+  0% { color: #00FFFF; }
+  40% { color: #00FF00; }
+  70% { color: #00FFFF; }
+  100% { color: white;}
+  }
+  @keyframes my {
+  0% { color: #00FFFF; }
+  40% { color: #00FF00; }
+  70% { color: #00FFFF; }
+  100% { color: white;}
+  }
+  .name {
+  border: 1px solid white;
+  box-shadow: 2px 2px 1px #ccff00;
+  background:#778899;
+  margin-right: 15px;
+  font-size:30px;
+  font-weight:bold;
+  -webkit-animation: my 1000ms infinite;
+  -moz-animation: my 1000ms infinite;
+  -o-animation: my 1000ms infinite;
+  animation: my 1000ms infinite;
+  }
+  
+  
+  #miss{
+    font-size: 15px;
+    color: black;
+  }
+  
+  
+  #miss:hover{
+    color:purple;
+  }
+  
+  
+  h6::selection{
+    background-color: pink;
+  }
+  
+  
